@@ -1,4 +1,4 @@
 ﻿  소스.c
-C:\Jung\c언어\testflight\0528\Function\문제5\소스.c(24): warning C4716: 'is_even': 값을 반환해야 합니다.
-C:\Jung\c언어\testflight\0528\Function\문제5\소스.c(27): warning C4716: 'is_odd': 값을 반환해야 합니다.
-  문제5.vcxproj -> C:\Jung\c언어\testflight\0528\Function\Debug\문제5.exe
+C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(30): error C4700: 초기화되지 않은 'even' 지역 변수를 사용했습니다.
+C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(38): error C4700: 초기화되지 않은 'odd' 지역 변수를 사용했습니다.
+C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(11): error C4700: 초기화되지 않은 'a' 지역 변수를 사용했습니다.
