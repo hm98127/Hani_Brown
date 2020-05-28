@@ -1,0 +1,4 @@
+﻿  func-2.c
+C:\Jung\c언어\testflight\0528\Function\Func-2\func-2.c(15,30): warning C4013: 'get_factorial'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Jung\c언어\testflight\0528\Function\Func-2\func-2.c(28,23): warning C4013: 'set_factorial'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Func-2.vcxproj -> C:\Jung\c언어\testflight\0528\Function\Debug\Func-2.exe

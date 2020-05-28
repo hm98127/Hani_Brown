@@ -1,0 +1,4 @@
+﻿  Func-1.c
+C:\Jung\c언어\testflight\0528\Function\Function\Func-1.c(18,15): warning C4474: 'scanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Jung\c언어\testflight\0528\Function\Function\Func-1.c(18,15): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Jung\c언어\testflight\0528\Function\Function\Func-1.c(67,18): error C2065: 'c': 선언되지 않은 식별자입니다.

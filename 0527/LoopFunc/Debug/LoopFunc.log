@@ -1,0 +1,3 @@
+﻿  loop.c
+C:\Jung\c언어\0525\0527\LoopFunc\loop.c(133,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double'입니다.
+  LoopFunc.vcxproj -> C:\Jung\c언어\0525\Debug\LoopFunc.exe

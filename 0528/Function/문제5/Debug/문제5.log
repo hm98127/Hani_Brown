@@ -1,0 +1,4 @@
+﻿  소스.c
+C:\Jung\c언어\testflight\0528\Function\문제5\소스.c(24): warning C4716: 'is_even': 값을 반환해야 합니다.
+C:\Jung\c언어\testflight\0528\Function\문제5\소스.c(27): warning C4716: 'is_odd': 값을 반환해야 합니다.
+  문제5.vcxproj -> C:\Jung\c언어\testflight\0528\Function\Debug\문제5.exe

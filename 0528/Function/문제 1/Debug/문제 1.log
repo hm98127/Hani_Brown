@@ -1,0 +1,3 @@
+﻿  문제1.c
+C:\Jung\c언어\testflight\0528\Function\문제 1\문제1.c(8,12): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+  문제 1.vcxproj -> C:\Jung\c언어\testflight\0528\Function\Debug\문제 1.exe
