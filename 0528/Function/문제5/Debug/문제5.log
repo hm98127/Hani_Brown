@@ -1,4 +1,4 @@
 ﻿  소스.c
-C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(30): error C4700: 초기화되지 않은 'even' 지역 변수를 사용했습니다.
-C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(38): error C4700: 초기화되지 않은 'odd' 지역 변수를 사용했습니다.
-C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(11): error C4700: 초기화되지 않은 'a' 지역 변수를 사용했습니다.
+C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(21,10): warning C4013: 'is_even'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(22,9): warning C4013: 'is_odd'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  문제5.vcxproj -> C:\Jung\c언어\testflight\Hani_Brown\0528\Function\Debug\문제5.exe

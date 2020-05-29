@@ -1,90 +1,46 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int is_even(int);
-int is_odd(int);
+
+int odd;    // 전역변수 초기화 
+int even;
+int a;
 
 int main() {
 
-	int a;
-	int i;
-	int even = is_even(a);
-	int odd = is_odd(a);
-
-	printf("정수를 빈칸으로 구분해서 입력하세요.(마지막에 0 입력)\n");
-	for (i = 1; i <= 12; i++)
+	
+	printf("정수를 빈칸으로 구분해서 입력하세요.(종료시 0 입력)\n");
+	
+	for (int i = 1; i <= 12; i++)
 	{
 		scanf_s("%d", &a);
 		if (a == 0)
 		{
 			break;
 		}
+		
+		is_even(a);
+		is_odd(a);
+		
 	}
-	printf("짝수의 개수 : %d\t 홀수의 개수: %d", even, odd);
+	printf("입력받은 정수 중 짝수는\n짝수의 개수 : %d\t홀수의 개수: %d", is_even(a), is_odd(a));
 	
 }
 
-int is_even(int num) {
-	int even;
+int is_even(int num) { // 짝수 판별 후 count
+	
 	if (num % 2 == 0)
 		even++;
-
-	return even;
+	return even - 1;
 
 }
-int is_odd(int num) {
-	int odd;
+int is_odd(int num) { // 홀수 판별 후 count
+	
 	if (num % 2 == 1)
 		odd++;
+	
 	return odd;
+	
 }
-//int main(void)
-//{
-//	int num[10];
-//	int count = 0;
-//	int i;
-//	
-//	for (i = 0; i < 10; i++) {
-//		if (num[i] % 2 != 0) {
-//			count++;
-//		}
-//	}
-//
-//	for (int i = 0; i < 10; i++)
-//	{
-//		printf("%d 번째 정수 입력 : ", i + 1);
-//
-//		scanf_s("%d", &num[i]);
-//		printf("\n홀수는 %d개\n 짝수는 %d개", count(even), count(odd));
-//	}
-//	even(num);
-//	odd(num);
-//}
-//
-//void even(int* str) {
-//	printf("짝수 : ");
-//	for (int i = 0; i < 10; i++)
-//	{
-//		if (*str % 2 == 0)
-//		{
-//			printf("%d ", *str);
-//		}
-//		str++;
-//	}
-//	printf("\n");
-//}
-//
-//void odd(int* str) {
-//	printf("홀수 : ");
-//	for (int i = 0; i < 10; i++)
-//	{
-//		if (*str % 2 != 0)
-//		{
-//			printf("%d ", *str);
-//		}
-//		str++;
-//	}
-//	printf("\n");
-//}
+
 
 

@@ -22,7 +22,10 @@ int main() {
 
 
 double discount_price(double x, double y) { //할인가 구하는 공식 
+	double o;
 	double z;
-	z = y * ((x / 100) * 100);
+	
+	o = (x / 100);
+	z = y - (y * o);
 	return z;
 }
