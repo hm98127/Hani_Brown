@@ -17,6 +17,7 @@ int main() {
 }
 
 double distance1(int x1, int y1, int x2, int y2) { // 거리 계산할 함수 
+	
 	double result;
 	result = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2)); // 직선의 길이 구하는 공식
 

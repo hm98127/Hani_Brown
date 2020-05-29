@@ -1,0 +1,5 @@
+﻿  소스.c
+C:\JungHan\Hani_Brown\0528\Function\문제6\소스.c(9,26): warning C4013: 'choose_menu'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\JungHan\Hani_Brown\0528\Function\문제6\소스.c(30,8): warning C4033: 'choose_menu'은(는) 값을 반환해야 합니다.
+C:\JungHan\Hani_Brown\0528\Function\문제6\소스.c(31): warning C4716: 'choose_menu': 값을 반환해야 합니다.
+  문제6.vcxproj -> C:\JungHan\Hani_Brown\0528\Function\Debug\문제6.exe

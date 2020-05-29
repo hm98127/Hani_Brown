@@ -5,7 +5,7 @@
 int get_perimeter(int, int);
 void main() {
 
-	int a, b, c;
+	int a, b;
 
 
 

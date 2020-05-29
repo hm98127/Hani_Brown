@@ -1,0 +1,4 @@
+﻿  소스.c
+C:\JungHan\Hani_Brown\0528\Function\문제7\소스.c(14,19): warning C4013: 'prime_number'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\JungHan\Hani_Brown\0528\Function\문제7\소스.c(17,12): warning C4013: 'is_prime'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  문제7.vcxproj -> C:\JungHan\Hani_Brown\0528\Function\Debug\문제7.exe

@@ -1,4 +1,4 @@
 ﻿  소스.c
-C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(21,10): warning C4013: 'is_even'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Jung\c언어\testflight\Hani_Brown\0528\Function\문제5\소스.c(22,9): warning C4013: 'is_odd'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  문제5.vcxproj -> C:\Jung\c언어\testflight\Hani_Brown\0528\Function\Debug\문제5.exe
+C:\JungHan\Hani_Brown\0528\Function\문제5\소스.c(21,10): warning C4013: 'is_even'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\JungHan\Hani_Brown\0528\Function\문제5\소스.c(22,9): warning C4013: 'is_odd'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  문제5.vcxproj -> C:\JungHan\Hani_Brown\0528\Function\Debug\문제5.exe
