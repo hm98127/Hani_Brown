@@ -1,0 +1,113 @@
+Ubuntu virtual machine
+   
+1. 가상머신 생성 및 셋팅 작업
+   
+2.Ubuntu Desktop 패키지 설치
+   
+sudo apt-get install update  (apt-get index에서 정보를 얻어 update)
+sudo apt-get upgrade (의존성 검사하며 설치)
+sudo apt-get install ubuntu-desktop  (패키지 설치)
+startx  (ubuntu gui실행)
+     
+
+ubuntu 내에서 terminal 실행 
+
+sudo apt install net-tools   (도구설치)
+sudu su root (관리자로 접속? )
+
+passwd( 본인계정 password 변경 )
+sudo apt-get install ssh (ssh install)
+sudo apt-get install openssh-server
+vi /etc/ssh/sshd_config (Secure Shell 환경설정) 
+
+set number 후
+15번 # (주석제거)
+34번 # (주석제거) Permitrootlogin :no 로 수정 
+후 저장 
+
+------------------terminal 재실행 ------------------------
+sudo apt-get install apache2 (install apache2)
+sudo service apache2 start  (apache2 실행)
+netstat -ntlp (netstat로 문제없는지 확인)
+sudo su root 
+
+vi /etc/apache2/sites-available/000-default.conf (환경설정)
+14번 #ServerName : 본인 ip로 변경 
+
+
+------------------------HTML   -- index 덮어 씌우기
+
+sudo mv 파일명 /var/www/html   (덮어씌우기 )
+sudo service apache2 restart    (재실행 )
+
+후 windows 에서 ip주소로 확인
+
+
+-------------------------HTML -- 파일 같이띄우기 ? 
+
+cd /var/www/html  (경로 이동) 
+cd / etc/apache2/mods-enabled  (경로 이동) 
+sudo vi dir.conf (환경설정)
+
+2번줄 DirectoryIndex  index.html 사이에  html에서 생성한 파일명 추가 
+ex)  DirectoryIndex test1 index.html
+
+저장후 
+
+sudo service apache2 restart 
+후 확인
+
+
+mysql
+
+sudo apt update  (설치되어 있는 패키지를 업데이트 )
+sudo apt istall mysql-server   
+sudo ufw allow mysql (방화벽 비활성화 허용)
+sudo systemctl start mysql (실행)
+sudo systemctl enable mysql(sql에 접속)
+sudo /usr/bin/mysql -u root -p (관리자 권한 얻기? )
+create database test; (selecte 할 database 생성) 
+show databases; (현재 존재하는 databases 목록 확인)
+use test;  (test를 selected)
+create table student (name varchar(50) not null,number int(20) not null,primary key(number)); 테이블생성
+select * from student;   (테이블 select)
+insert into student (name,number) values("example" , 200);     (table에 data 추가 )
+select * from student; (최종 테이블 데이터 확인)
+
+
+------------------------터미널 재접속---------------------------
+
+filezilla 
+
+sudo apt-get insall vsftpd  
+sudo vim /etc/vsftpd.conf       31번 70번 주석해제 
+sudo apt-get install filezilla
+
+window 에서 filezilla client 다운로드 해서 
+
+접속 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
